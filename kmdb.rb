@@ -69,14 +69,33 @@
 
 # Delete existing data, so you'll start fresh each time this script is run.
 # Use `Model.destroy_all` code.
-
+Movie.destroy_all
+Cast.destroy_all
 
 # Generate models and tables, according to the domain model.
-# TODO!
 
 # Insert data into the database that reflects the sample data shown above.
 # Do not use hard-coded foreign key IDs.
-# TODO!
+movie1 = Movie.new
+movie1["title"] = "Batman Begins"
+movie1["year_released"] = "2005"
+movie1["rated"] = "PG-13"
+movie1["studio_id"] = "Warner Bros."
+movie1.save
+
+movie2 = Movie.new
+movie2["title"] = "The Dark Knight"
+movie2["year_released"] = "2008"
+movie2["rated"] = "PG-13"
+movie2["studio_id"] = "Warner Bros."
+movie2.save
+
+movie3 = Movie.new
+movie3["title"] = "The Dark Knight Rises"
+movie3["year_released"] = "2012"
+movie3["rated"] = "PG-13"
+movie3["studio_id"] = "Warner Bros."
+movie3.save
 
 # Prints a header for the movies output
 puts "Movies"
@@ -84,7 +103,17 @@ puts "======"
 puts ""
 
 # Query the movies data and loop through the results to display the movies output.
-# TODO!
+# puts "Movies: #{Movie.all.count}"
+
+for Movie in movies
+    title = Movie["title"]
+    year_released = Movie["year_released"]
+    rated = Movie["rated"]
+    studio = Movie["studio_id"]
+
+    puts "#{title}, #{year_released}, #{rated}, #{studio}"
+
+end
 
 # Prints a header for the cast output
 puts ""
@@ -93,4 +122,102 @@ puts "========"
 puts ""
 
 # Query the cast data and loop through the results to display the cast output for each movie.
-# TODO!
+
+Cast1 = Cast.new
+Cast1["movie_id"] = "Batman Begins"
+Cast1["actor_id"] = "2005"
+Cast1["character_name"] = "PG-13"
+Cast1.save
+
+Cast1 = Cast.new
+Cast1["movie_id"] = "Batman Begins"
+Cast1["actor_id"] = "2005"
+Cast1["character_name"] = "PG-13"
+Cast1.save
+
+Cast1 = Cast.new
+Cast1["movie_id"] = "Batman Begins"
+Cast1["actor_id"] = "2005"
+Cast1["character_name"] = "PG-13"
+Cast1.save
+
+Cast1 = Cast.new
+Cast1["movie_id"] = "Batman Begins"
+Cast1["actor_id"] = "2005"
+Cast1["character_name"] = "PG-13"
+Cast1.save
+
+Cast1 = Cast.new
+Cast1["movie_id"] = "Batman Begins"
+Cast1["actor_id"] = "2005"
+Cast1["character_name"] = "PG-13"
+Cast1.save
+
+Cast1 = Cast.new
+Cast1["movie_id"] = "Batman Begins"
+Cast1["actor_id"] = "2005"
+Cast1["character_name"] = "PG-13"
+Cast1.save
+
+Cast1 = Cast.new
+Cast1["movie_id"] = "Batman Begins"
+Cast1["actor_id"] = "2005"
+Cast1["character_name"] = "PG-13"
+Cast1.save
+
+Cast1 = Cast.new
+Cast1["movie_id"] = "Batman Begins"
+Cast1["actor_id"] = "2005"
+Cast1["character_name"] = "PG-13"
+Cast1.save
+
+Cast1 = Cast.new
+Cast1["movie_id"] = "Batman Begins"
+Cast1["actor_id"] = "2005"
+Cast1["character_name"] = "PG-13"
+Cast1.save
+
+Cast1 = Cast.new
+Cast1["movie_id"] = "Batman Begins"
+Cast1["actor_id"] = "2005"
+Cast1["character_name"] = "PG-13"
+Cast1.save
+
+Cast1 = Cast.new
+Cast1["movie_id"] = "Batman Begins"
+Cast1["actor_id"] = "2005"
+Cast1["character_name"] = "PG-13"
+Cast1.save
+
+Cast1 = Cast.new
+Cast1["movie_id"] = "Batman Begins"
+Cast1["actor_id"] = "2005"
+Cast1["character_name"] = "PG-13"
+Cast1.save
+
+Cast1 = Cast.new
+Cast1["movie_id"] = "Batman Begins"
+Cast1["actor_id"] = "2005"
+Cast1["character_name"] = "PG-13"
+Cast1.save
+
+Cast1 = Cast.new
+Cast1["movie_id"] = "Batman Begins"
+Cast1["actor_id"] = "2005"
+Cast1["character_name"] = "PG-13"
+Cast1.save
+
+Cast1 = Cast.new
+Cast1["movie_id"] = "Batman Begins"
+Cast1["actor_id"] = "2005"
+Cast1["character_name"] = "PG-13"
+Cast1.save
+
+for Cast in casts
+    movie_id = Cast["movie_id"]
+    actor_id = Cast["actor_id"]
+    character_name = Cast["character_name"]
+
+    puts "#{movie_id}, #{actor_id}, #{character_name}"
+
+end
