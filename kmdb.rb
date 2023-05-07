@@ -125,93 +125,93 @@ puts ""
 
 Cast1 = Cast.new
 Cast1["movie_id"] = "Batman Begins"
-Cast1["actor_id"] = "2005"
-Cast1["character_name"] = "PG-13"
+Cast1["actor_id"] = "Christian Bale"
+Cast1["character_name"] = "Bruce Wayne"
 Cast1.save
 
-Cast1 = Cast.new
-Cast1["movie_id"] = "Batman Begins"
-Cast1["actor_id"] = "2005"
-Cast1["character_name"] = "PG-13"
-Cast1.save
+Cast2 = Cast.new
+Cast2["movie_id"] = "Batman Begins"
+Cast2["actor_id"] = "Michael Caine"
+Cast2["character_name"] = "Alfred"
+Cast2.save
 
-Cast1 = Cast.new
-Cast1["movie_id"] = "Batman Begins"
-Cast1["actor_id"] = "2005"
-Cast1["character_name"] = "PG-13"
-Cast1.save
+Cast3 = Cast.new
+Cast3["movie_id"] = "Batman Begins"
+Cast3["actor_id"] = "Liam Neeson"
+Cast3["character_name"] = "Ra's Al Ghul"
+Cast3.save
 
-Cast1 = Cast.new
-Cast1["movie_id"] = "Batman Begins"
-Cast1["actor_id"] = "2005"
-Cast1["character_name"] = "PG-13"
-Cast1.save
+Cast4 = Cast.new
+Cast4["movie_id"] = "Batman Begins"
+Cast4["actor_id"] = "Katie Holmes"
+Cast4["character_name"] = "Rachel Dawes"
+Cast4.save
 
-Cast1 = Cast.new
-Cast1["movie_id"] = "Batman Begins"
-Cast1["actor_id"] = "2005"
-Cast1["character_name"] = "PG-13"
-Cast1.save
+Cast5 = Cast.new
+Cast5["movie_id"] = "Batman Begins"
+Cast5["actor_id"] = "Gary Oldman"
+Cast5["character_name"] = "Commissioner Gordon"
+Cast5.save
 
-Cast1 = Cast.new
-Cast1["movie_id"] = "Batman Begins"
-Cast1["actor_id"] = "2005"
-Cast1["character_name"] = "PG-13"
-Cast1.save
+Cast6 = Cast.new
+Cast6["movie_id"] = "The Dark Knight"
+Cast6["actor_id"] = "Christian Bale"
+Cast6["character_name"] = "Bruce Wayne"
+Cast6.save
 
-Cast1 = Cast.new
-Cast1["movie_id"] = "Batman Begins"
-Cast1["actor_id"] = "2005"
-Cast1["character_name"] = "PG-13"
-Cast1.save
+Cast7 = Cast.new
+Cast7["movie_id"] = "The Dark Knight"
+Cast7["actor_id"] = "Heath Ledger"
+Cast7["character_name"] = "Joker"
+Cast7.save
 
-Cast1 = Cast.new
-Cast1["movie_id"] = "Batman Begins"
-Cast1["actor_id"] = "2005"
-Cast1["character_name"] = "PG-13"
-Cast1.save
+Cast8 = Cast.new
+Cast8["movie_id"] = "The Dark Knight"
+Cast8["actor_id"] = "Aaron Eckhart"
+Cast8["character_name"] = "Harvey Dent"
+Cast8.save
 
-Cast1 = Cast.new
-Cast1["movie_id"] = "Batman Begins"
-Cast1["actor_id"] = "2005"
-Cast1["character_name"] = "PG-13"
-Cast1.save
+Cast9 = Cast.new
+Cast9["movie_id"] = "The Dark Knight"
+Cast9["actor_id"] = "Michael Caine"
+Cast9["character_name"] = "Alfred"
+Cast9.save
 
-Cast1 = Cast.new
-Cast1["movie_id"] = "Batman Begins"
-Cast1["actor_id"] = "2005"
-Cast1["character_name"] = "PG-13"
-Cast1.save
+Cast10 = Cast.new
+Cast10["movie_id"] = "The Dark Knight"
+Cast10["actor_id"] = "Maggie Gyllenhaal"
+Cast10["character_name"] = "Rachel Dawes"
+Cast10.save
 
-Cast1 = Cast.new
-Cast1["movie_id"] = "Batman Begins"
-Cast1["actor_id"] = "2005"
-Cast1["character_name"] = "PG-13"
-Cast1.save
+Cast11 = Cast.new
+Cast11["movie_id"] = "The Dark Knight Rises"
+Cast11["actor_id"] = "Christian Bale"
+Cast11["character_name"] = "Bruce Wayne"
+Cast11.save
 
-Cast1 = Cast.new
-Cast1["movie_id"] = "Batman Begins"
-Cast1["actor_id"] = "2005"
-Cast1["character_name"] = "PG-13"
-Cast1.save
+Cast12 = Cast.new
+Cast12["movie_id"] = "The Dark Knight Rises"
+Cast12["actor_id"] = "Gary Oldman"
+Cast12["character_name"] = "Commissioner Gordon"
+Cast12.save
 
-Cast1 = Cast.new
-Cast1["movie_id"] = "Batman Begins"
-Cast1["actor_id"] = "2005"
-Cast1["character_name"] = "PG-13"
-Cast1.save
+Cast13 = Cast.new
+Cast13["movie_id"] = "The Dark Knight Rises"
+Cast13["actor_id"] = "Tom Hardy"
+Cast13["character_name"] = "Bane"
+Cast13.save
 
-Cast1 = Cast.new
-Cast1["movie_id"] = "Batman Begins"
-Cast1["actor_id"] = "2005"
-Cast1["character_name"] = "PG-13"
-Cast1.save
+Cast14 = Cast.new
+Cast14["movie_id"] = "The Dark Knight Rises"
+Cast14["actor_id"] = "Joseph Gordon-Levitt"
+Cast14["character_name"] = "John Blake"
+Cast14.save
 
-Cast1 = Cast.new
-Cast1["movie_id"] = "Batman Begins"
-Cast1["actor_id"] = "2005"
-Cast1["character_name"] = "PG-13"
-Cast1.save
+Cast15 = Cast.new
+Cast15["movie_id"] = "The Dark Knight Rises"
+Cast15["actor_id"] = "Anne Hathaway"
+Cast15["character_name"] = "Selina Kyle"
+Cast15.save
 
 for Cast in casts
     movie_id = Cast["movie_id"]
